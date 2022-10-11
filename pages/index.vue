@@ -47,7 +47,7 @@
       </div>
     </section>
     <section class="home__steps">
-      <h1 class="u-font-h1">It’s a 3 step process</h1>
+      <h1 class="u-font-h1">It's a 3 step process</h1>
       <div class="home__steps-list">
         <div class="home__steps-step">
           <!--prettier-ignore-->
@@ -56,7 +56,7 @@
           </svg>
           <h3 class="u-font-h3">GETTING ON BOARD</h3>
           <p>
-            We evaluate the startup and make sure they’re a good fit. We welcome
+            We evaluate the startup and make sure they're a good fit. We welcome
             them on board if they are.
           </p>
         </div>
@@ -69,8 +69,8 @@
           <h3 class="u-font-h3">PAIRING</h3>
           <p>
             To facilitate the pairing stage we collect a deposit finders fee of
-            $500, this will be completely refunded if the startup doesn’t get
-            engaged with a designer. We identify the start- up’s needs and pair
+            $500, this will be completely refunded if the startup doesn't get
+            engaged with a designer. We identify the start- up's needs and pair
             them with an interested designer(s) who fits. The startup chooses
             the designer to proceed with.
           </p>
