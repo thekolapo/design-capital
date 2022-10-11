@@ -1,19 +1,9 @@
 <template>
-  <div>
-    <Nuxt class="app" />
+  <div class="app">
+    <Nuxt />
     <Footer />
   </div>
 </template>
-
-<script>
-import Footer from '~/components/Footer.vue'
-export default {
-  components: { Footer },
-  data() {
-    return {}
-  },
-}
-</script>
 
 <style lang="scss">
 @import '~/assets/scss/main.scss';

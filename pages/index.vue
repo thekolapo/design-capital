@@ -92,16 +92,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      loading: true,
-    }
-  },
-}
-</script>
-
 <style lang="scss" scoped>
 .home {
   section {
