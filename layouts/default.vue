@@ -20,5 +20,7 @@ export default {
 
 .app {
   padding: 6rem;
+  max-width: 192rem;
+  margin: 0 auto;
 }
 </style>
