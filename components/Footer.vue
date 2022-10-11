@@ -10,9 +10,9 @@
     </div>
     <div class="footer__bottom">
       <div class="footer__links">
-        <a href="" target="_blank">Twitter</a>
-        <a href="" target="_blank">Instagram</a>
-        <nuxt-link to="/team">Team</nuxt-link>
+        <a class="c-link" href="" target="_blank">Twitter</a>
+        <a class="c-link" href="" target="_blank">Instagram</a>
+        <nuxt-link class="c-link" to="/team">Team</nuxt-link>
       </div>
       <div class="footer__copyright">
         <span>© Design Capital</span>
@@ -50,7 +50,6 @@
 
     h1 {
       color: white;
-      line-height: 11.52rem;
       margin-bottom: 8rem;
     }
   }
@@ -67,7 +66,6 @@
 
     a {
       font-weight: 500;
-      line-height: 2.64rem;
       color: black;
       text-decoration: none;
 
@@ -84,7 +82,6 @@
 
     span {
       font-weight: 500;
-      line-height: 2.64rem;
       color: #828282;
       margin-right: 5.2rem;
     }

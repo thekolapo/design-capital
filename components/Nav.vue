@@ -72,8 +72,8 @@
       </nuxt-link>
     </div>
     <div class="nav__menu">
-      <p class="c-link"><nuxt-link to="/team">Team</nuxt-link></p>
-      <p class="c-link"><nuxt-link to="">Get in touch</nuxt-link></p>
+      <nuxt-link class="c-link" to="/team">Team</nuxt-link>
+      <nuxt-link class="c-link" to="">Get in touch</nuxt-link>
     </div>
   </div>
 </template>
@@ -93,6 +93,7 @@
     //   align-items: center;
     justify-content: space-between;
     font-weight: 500;
+
     a {
       color: black;
       text-decoration: none;
