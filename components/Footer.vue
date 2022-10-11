@@ -50,7 +50,6 @@
 
     h1 {
       color: white;
-      line-height: 11.52rem;
       margin-bottom: 8rem;
     }
   }
@@ -67,7 +66,6 @@
 
     a {
       font-weight: 500;
-      line-height: 2.64rem;
       color: black;
       text-decoration: none;
 
@@ -84,7 +82,6 @@
 
     span {
       font-weight: 500;
-      line-height: 2.64rem;
       color: #828282;
       margin-right: 5.2rem;
     }
