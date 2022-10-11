@@ -39,20 +39,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      loading: true,
-    }
-  },
-}
-</script>
-
 <style lang="scss" scoped>
 .footer {
   &__header {
-    background-color: #9d00ff;
+    background-color: $color-purple;
     border-radius: 8rem;
     margin-bottom: 10.2rem;
     padding: 6rem 6rem 22.4rem;
