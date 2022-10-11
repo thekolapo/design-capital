@@ -6,6 +6,8 @@
         Connect with a SENIOR designer
       </button>
     </div>
+    <div>
+    </div>
   </div>
 </template>
 
