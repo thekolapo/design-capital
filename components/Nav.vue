@@ -72,8 +72,8 @@
       </nuxt-link>
     </div>
     <div class="nav__menu">
-      <p class="c-link"><nuxt-link to="/team">Team</nuxt-link></p>
-      <p class="c-link"><nuxt-link to="">Get in touch</nuxt-link></p>
+      <span class="c-link"><nuxt-link to="/team">Team</nuxt-link></span>
+      <span class="c-link"><nuxt-link to="">Get in touch</nuxt-link></span>
     </div>
   </div>
 </template>
