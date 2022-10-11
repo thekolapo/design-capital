@@ -89,8 +89,6 @@
     display: flex;
     width: 26rem;
     height: 4rem;
-    // background-color: red;
-    //   align-items: center;
     justify-content: space-between;
     font-weight: 500;
 

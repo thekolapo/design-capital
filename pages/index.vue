@@ -70,9 +70,12 @@
           <p>
             To facilitate the pairing stage we collect a deposit finders fee of
             $500, this will be completely refunded if the startup doesn't get
-            engaged with a designer. We identify the start- up's needs and pair
-            them with an interested designer(s) who fits. The startup chooses
-            the designer to proceed with.
+            engaged with a designer.
+            <br />
+            <br />
+            We identify the start- up's needs and pair them with an interested
+            designer(s) who fits. The startup chooses the designer to proceed
+            with.
           </p>
         </div>
         <div class="home__steps-step">
@@ -81,7 +84,7 @@
             <rect x="51.3773" y="64.6578" width="89.4103" height="32.4853" transform="rotate(-45 51.3773 64.6578)" fill="white" stroke="black"/>
             <rect x="23.6777" y="28.9013" width="77.3556" height="32.4853" transform="rotate(45 23.6777 28.9013)" fill="white" stroke="black"/>
           </svg>
-          <h3 class="u-font-h3">GETTING ON BOARD</h3>
+          <h3 class="u-font-h3">ENGAGEMENT</h3>
           <p>
             Terms are documented and the agreement between designer and startup
             is settled.
@@ -122,6 +125,11 @@
       .u-font-h3 {
         margin-bottom: 2.5rem;
         text-transform: uppercase;
+      }
+
+      &:nth-child(3),
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }
