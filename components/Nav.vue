@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <div class="nav__logo">
-      <a href="/">
+      <nuxt-link to="/">
         <svg
           width="108"
           height="60"
@@ -69,11 +69,11 @@
             </clipPath>
           </defs>
         </svg>
-      </a>
+      </nuxt-link>
     </div>
     <div class="nav__menu">
-      <p><a href="/team">Team</a></p>
-      <p><a href="">Get in touch</a></p>
+      <p><nuxt-link to="/team">Team</nuxt-link></p>
+      <p><nuxt-link to="">Get in touch</nuxt-link></p>
     </div>
   </div>
 </template>
