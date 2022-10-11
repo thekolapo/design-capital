@@ -10,9 +10,9 @@
     </div>
     <div class="footer__bottom">
       <div class="footer__bottom__socials">
-        <p>Twitter</p>
-        <p>Instagram</p>
-        <p>team</p>
+        <p><a href="">Twitter</a></p>
+        <p><a href="">Instagram</a></p>
+        <p><a href="">team</a></p>
       </div>
       <div class="footer__bottom__copy">
         <p>© Design Capital</p>
@@ -39,60 +39,59 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      loading: true,
-    }
-  },
-}
-</script>
-
 <style lang="scss" scoped>
-.footer__header {
-  background-color: #9d00ff;
-  border-radius: 80px;
-  margin-bottom: 102px;
-  padding: 60px 60px;
-}
-.footer__header h1 {
-  color: white;
-  line-height: 115.2px;
-  margin-bottom: 80px;
-}
-.footer__header button {
-  margin-bottom: 224px;
-}
-.footer__bottom {
-  display: flex;
-  margin: 0px 60px;
-  justify-content: space-between;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.footer__bottom .footer__bottom__socials {
-  display: flex;
-  flex: 1;
-  align-content: center;
-  justify-content: space-between;
-  max-width: 35%;
-}
-.footer__bottom .footer__bottom__socials p {
-  font-weight: 500;
-  line-height: 2.64rem;
-  font-size: 2.4rem;
-}
-.footer__bottom .footer__bottom__copy {
-  display: flex;
-  width: 30%;
-  align-content: center;
-  justify-content: space-between;
-}
-.footer__bottom .footer__bottom__copy p {
-  font-weight: 500;
-  line-height: 2.64rem;
-  font-size: 2.4rem;
-  color: #828282;
+.footer {
+  &__header {
+    background-color: $color-purple;
+    border-radius: 8rem;
+    margin-bottom: 10.2rem;
+    padding: 6rem 6rem 22.4rem;
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+
+    h1 {
+      color: white;
+      line-height: 11.52rem;
+      margin-bottom: 8rem;
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+    &__socials {
+      display: flex;
+      flex: 1;
+      align-content: center;
+      justify-content: space-between;
+      max-width: 38rem;
+
+      p {
+        font-weight: 500;
+        line-height: 2.64rem;
+        font-size: 2.4rem;
+
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+    &__copy {
+      display: flex;
+      width: 33rem;
+      align-content: center;
+      justify-content: space-between;
+
+      p {
+        font-weight: 500;
+        line-height: 2.64rem;
+        font-size: 2.4rem;
+        color: #828282;
+      }
+    }
+  }
 }
 </style>
