@@ -10,9 +10,9 @@
     </div>
     <div class="footer__bottom">
       <div class="footer__links">
-        <a href="" target="_blank">Twitter</a>
-        <a href="" target="_blank">Instagram</a>
-        <nuxt-link to="/team">Team</nuxt-link>
+        <a class="c-link" href="" target="_blank">Twitter</a>
+        <a class="c-link" href="" target="_blank">Instagram</a>
+        <nuxt-link class="c-link" to="/team">Team</nuxt-link>
       </div>
       <div class="footer__copyright">
         <span>© Design Capital</span>
