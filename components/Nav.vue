@@ -72,8 +72,8 @@
       </nuxt-link>
     </div>
     <div class="nav__menu">
-      <span class="c-link"><nuxt-link to="/team">Team</nuxt-link></span>
-      <span class="c-link"><nuxt-link to="">Get in touch</nuxt-link></span>
+      <p class="c-link"><nuxt-link to="/team">Team</nuxt-link></p>
+      <p class="c-link"><nuxt-link to="">Get in touch</nuxt-link></p>
     </div>
   </div>
 </template>
@@ -83,17 +83,19 @@
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  margin-bottom: 8rem;
+  margin-bottom: 7.5rem;
 
   &__menu {
+    display: flex;
+    width: 26rem;
+    height: 4rem;
+    // background-color: red;
+    //   align-items: center;
+    justify-content: space-between;
     font-weight: 500;
     a {
       color: black;
       text-decoration: none;
-
-      &:not(:last-child) {
-        margin-right: 2.4rem;
-      }
     }
   }
 }

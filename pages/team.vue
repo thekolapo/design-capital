@@ -22,7 +22,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-        <img src="../assets/images/Dami-Front-Cropped 1-min.png"/>
+        <img src="../assets/images/dami.png"/>
       </div>
     </div>
     <div class="team__profile">
@@ -45,7 +45,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-           <img src="../assets/images/Dami-Front-Cropped 2-min.png"/>
+           <img src="../assets/images/saratu.png"/>
       </div>
     </div>
     <div class="team__profile">
@@ -64,7 +64,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-           <img src="../assets/images/Dami-Front-Cropped 1-min.png"/>
+           <img src="../assets/images/dami.png"/>
       </div>
     </div>
     <div class="team__profile">
@@ -86,7 +86,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-           <img src="../assets/images/Dami-Front-Cropped 1-min.png"/>
+           <img src="../assets/images/dami.png"/>
       </div>
     </div>
   </div>
