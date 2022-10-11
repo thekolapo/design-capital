@@ -83,17 +83,17 @@
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  margin-bottom: 7.5rem;
+  margin-bottom: 8rem;
 
   &__menu {
-    display: flex;
-    width: 26rem;
-    height: 4rem;
-    justify-content: space-between;
     font-weight: 500;
     a {
       color: black;
       text-decoration: none;
+
+      &:not(:last-child) {
+        margin-right: 2.4rem;
+      }
     }
   }
 }
