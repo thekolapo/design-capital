@@ -9,9 +9,11 @@
           intersection of design and business. Damilola is bullish team African
           founders and believes in the power of design to positively transform
           businesses. Outside of Design Capital, she is the Co-founder of one of
-          Africa's leading design agencies, Dá Design Studio. She has helped
-          design substantial brands for some of Africa's most exciting startups
-          and companies. She is a member of the D&AD impact council - a small
+          Africa's leading design agencies,
+          <a href="" target="_blank">á Design Studio.</a> She has helped design
+          substantial brands for some of Africa's most exciting startups and
+          companies. She is a member of the
+          <a href="" target="_blank">D&AD impact council</a> - a small
           collection of senior figures from across the creative, investment, and
           social impact space who help award the world's most impactful creative
           ideas each year. When she's not working, she's a fabulous pet mum to
@@ -19,7 +21,9 @@
           sipping on Thai milk tea.
         </p>
       </div>
-      <div class="team__profile-image"></div>
+      <div class="team__profile-image">
+        <img src="../assets/images/Dami-Front-Cropped 1-min.png"/>
+      </div>
     </div>
     <div class="team__profile">
       <div class="team__profile-details">
@@ -32,14 +36,17 @@
           the University of Oxford and American Society of Appraisers (ASA) on
           the valuation of intangible assets. Saratu is very passionate team
           supporting the growth of creativity and innovation in Africa, either
-          through sharing her knowledge at ProjectIP4U or providing access to
+          through sharing her knowledge at
+          <a href="" target="_blank">ProjectIP4U</a> or providing access to
           fundraising opportunities for founders, through the platform she
-          co-founded, The Fund Plug In her free time, she travels on random
-          adventures and attempts to become a pro guitar player for the
-          umpteenth time.
+          co-founded, <a href="" target="_blank">The Fund Plug</a> In her free
+          time, she travels on random adventures and attempts to become a pro
+          guitar player for the umpteenth time.
         </p>
       </div>
-      <div class="team__profile-image"></div>
+      <div class="team__profile-image">
+           <img src="../assets/images/Dami-Front-Cropped 2-min.png"/>
+      </div>
     </div>
     <div class="team__profile">
       <div class="team__profile-details">
@@ -56,7 +63,9 @@
           cat and two dogs.
         </p>
       </div>
-      <div class="team__profile-image"></div>
+      <div class="team__profile-image">
+           <img src="../assets/images/Dami-Front-Cropped 1-min.png"/>
+      </div>
     </div>
     <div class="team__profile">
       <div class="team__profile-details">
@@ -69,13 +78,16 @@
           Product Design, User Research, Brand, and Marketing Design. He is a
           significant contributor to scaling the company from a little over
           20,000 merchants to more than 1,000,000 merchants globally. He also
-          leads products at Archivi.ng where they are archiving and digitizing
-          Nigeria's history through the lens of the media, starting with
-          newspapers. In his spare time, he collaborates with architects to
-          design his dream home in Lagos and plays video games.
+          leads products at <a href="" target="_blank">Archivi.ng</a> where they
+          are archiving and digitizing Nigeria's history through the lens of the
+          media, starting with newspapers. In his spare time, he collaborates
+          with architects to design his dream home in Lagos and plays video
+          games.
         </p>
       </div>
-      <div class="team__profile-image"></div>
+      <div class="team__profile-image">
+           <img src="../assets/images/Dami-Front-Cropped 1-min.png"/>
+      </div>
     </div>
   </div>
 </template>
@@ -91,6 +103,11 @@
       .u-font-h2 {
         margin-bottom: 1rem;
       }
+      p {
+        a {
+          color: black;
+        }
+      }
     }
 
     &-image {
@@ -101,6 +118,10 @@
       flex-shrink: 0;
       margin-left: 15rem;
       border-radius: 1rem;
+
+      img{
+        width: 100%;
+      }
     }
   }
 }

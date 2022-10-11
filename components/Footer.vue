@@ -10,9 +10,9 @@
     </div>
     <div class="footer__bottom">
       <div class="footer__bottom__socials">
-        <p><a href="">Twitter</a></p>
-        <p><a href="">Instagram</a></p>
-        <p><a href="">team</a></p>
+        <p class="c-link"><a href="">Twitter</a></p>
+        <p class="c-link"><a href="">Instagram</a></p>
+        <p class="c-link"><a href="">team</a></p>
       </div>
       <div class="footer__bottom__copy">
         <p>© Design Capital</p>
