@@ -90,7 +90,7 @@
 
     &__logo svg {
       width: 8rem;
-      height: fit-content;
+      height: 4.4rem;
     }
   }
 
