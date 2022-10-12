@@ -10,7 +10,7 @@
 @import '~/assets/scss/main.scss';
 
 .app {
-  padding: 6rem;
+  padding: 6rem var(--layout-horizontal-padding);
   max-width: 192rem;
   margin: 0 auto;
 }

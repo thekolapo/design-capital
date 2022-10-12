@@ -21,4 +21,9 @@ body {
   line-height: 3.4rem;
   overflow-x: hidden;
   background-color: #EEEEEE;
+
+  @include screen ('small') {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }

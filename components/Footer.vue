@@ -46,16 +46,31 @@
     background-color: $color-purple;
     border-radius: 8rem;
     margin-bottom: 10.2rem;
-    padding: 6rem 6rem 22.4rem;
+    padding: 6rem var(--layout-horizontal-padding) 22.4rem;
+
+    @include screen('small') {
+      padding-top: 10rem;
+      padding-bottom: 18rem;
+      border-radius: 4rem;
+    }
 
     h1 {
       color: white;
       margin-bottom: 8rem;
+
+      @include screen('small') {
+        // font-size: 4rem;
+        // line-height: 4.6rem;
+      }
     }
   }
   &__bottom {
     display: flex;
     justify-content: space-between;
+
+    @include screen('small') {
+      flex-wrap: wrap;
+    }
   }
 
   &__links {
@@ -63,6 +78,10 @@
     flex: 1;
     align-content: center;
     text-transform: uppercase;
+
+    @include screen('med') {
+      width: 100%;
+    }
 
     a {
       font-weight: 500;

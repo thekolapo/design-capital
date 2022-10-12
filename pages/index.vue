@@ -99,6 +99,10 @@
 .home {
   section {
     margin-bottom: 20rem;
+
+    @include screen('small') {
+      margin-bottom: 12rem;
+    }
   }
 
   &__hero {
@@ -107,6 +111,10 @@
     &-subtext {
       margin: 3rem 0 7rem;
       max-width: 87rem;
+
+      @include screen('small') {
+        margin-bottom: 5rem;
+      }
     }
   }
 
@@ -115,7 +123,11 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin-top: 7.3rem;
+      margin-top: 8rem;
+
+      @include screen('small') {
+        margin-top: 5rem;
+      }
     }
 
     &-offer {
@@ -131,6 +143,16 @@
       &:last-child {
         margin-bottom: 0;
       }
+
+      @include screen('med-small') {
+        $margin-bottom: 6rem;
+        width: 100%;
+        margin-bottom: $margin-bottom;
+
+        &:nth-child(3) {
+          margin-bottom: $margin-bottom;
+        }
+      }
     }
   }
 
@@ -139,15 +161,54 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-top: 8.5rem;
+      margin-top: 8rem;
+
+      @include screen('small') {
+        margin-top: 5rem;
+      }
     }
 
     &-step {
       width: 28%;
 
+      @include screen('med') {
+        svg {
+          height: fit-content;
+        }
+
+        &:first-child svg {
+          width: 6rem;
+        }
+
+        &:nth-child(2) svg {
+          width: 11rem;
+        }
+
+        &:last-child svg {
+          width: 8rem;
+        }
+      }
+
+      @include screen('med-small') {
+        width: 100%;
+
+        &:not(:last-child) {
+          margin-bottom: 6rem;
+        }
+      }
+
       .u-font-h3 {
         margin: 2.5rem 0;
         text-transform: uppercase;
+      }
+    }
+  }
+
+  &__offers,
+  &__steps {
+    .u-font-h3 {
+      @include screen('med-small') {
+        margin-bottom: 1.6rem;
       }
     }
   }

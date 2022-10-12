@@ -2,3 +2,11 @@ $color-purple: #9D00FF;
 $color-green: #6AE692;
 
 $ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+:root {
+	--layout-horizontal-padding: 6rem;
+
+  @media screen and (max-width: 750px) {
+    --layout-horizontal-padding: 1.8rem;
+  }
+}

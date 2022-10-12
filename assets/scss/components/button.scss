@@ -7,6 +7,17 @@
   border-radius: 1rem;
   font-weight: 500;
 
+  @include screen ('med') {
+    font-size: 2rem;
+    padding: 4rem 2.2rem;
+  }
+
+
+  @include screen ('small') {
+    font-size: 1.6rem;
+    padding: 3.2rem 1.2rem;
+  }
+
   &--secondary, 
   &:hover {
     color: black;

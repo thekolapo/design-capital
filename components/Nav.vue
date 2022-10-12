@@ -85,9 +85,17 @@
   text-transform: uppercase;
   margin-bottom: 7.5rem;
 
+  @include screen('small') {
+    font-size: 1.8rem;
+
+    &__logo svg {
+      width: 8rem;
+      height: fit-content;
+    }
+  }
+
   &__menu {
     display: flex;
-    width: 26rem;
     height: 4rem;
     justify-content: space-between;
     font-weight: 500;
@@ -95,6 +103,14 @@
     a {
       color: black;
       text-decoration: none;
+
+      &:not(:last-child) {
+        margin-right: 2.4rem;
+
+        @include screen('small') {
+          margin-right: 1.8rem;
+        }
+      }
     }
   }
 }
