@@ -106,7 +106,6 @@
     display: flex;
     align-content: center;
     justify-content: space-between;
-
     span {
       font-weight: 500;
       color: #828282;
@@ -123,7 +122,7 @@
       justify-content: center;
       svg {
         @include screen('small') {
-          width: 100%;
+          width: 90%;
         }
       }
     }
