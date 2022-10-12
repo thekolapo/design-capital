@@ -22,7 +22,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-        <img src="../assets/images/dami.png"/>
+        <img src="../assets/images/dami.png" />
       </div>
     </div>
     <div class="team__profile">
@@ -45,7 +45,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-           <img src="../assets/images/saratu.png"/>
+        <img src="../assets/images/saratu.png" />
       </div>
     </div>
     <div class="team__profile">
@@ -64,7 +64,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-           <img src="../assets/images/dami.png"/>
+        <img src="../assets/images/dami.png" />
       </div>
     </div>
     <div class="team__profile">
@@ -86,7 +86,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-           <img src="../assets/images/dami.png"/>
+        <img src="../assets/images/dami.png" />
       </div>
     </div>
   </div>
@@ -99,28 +99,54 @@
     justify-content: space-between;
     margin-bottom: 20rem;
 
+    @media screen and (max-width: 1280px) {
+      margin-bottom: 14rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+      flex-wrap: wrap;
+    }
+
+    @include screen('small') {
+      margin-bottom: 8rem;
+    }
+
     &-details {
       .u-font-h2 {
         margin-bottom: 1rem;
       }
-      p {
-        a {
-          color: black;
-        }
+
+      a {
+        color: black;
       }
     }
 
     &-image {
-      $size: 56rem;
-      width: $size;
-      height: $size;
+      overflow: hidden;
+      --size: 56rem;
+      width: var(--size);
+      height: var(--size);
       background: rgb(206, 206, 206);
       flex-shrink: 0;
       margin-left: 15rem;
       border-radius: 1rem;
 
+      @media screen and (max-width: 1280px) {
+        --size: 52rem;
+        margin-left: 8rem;
+      }
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 5rem;
+      }
+
       img {
         width: 100%;
+        object-fit: cover;
+        height: auto;
       }
     }
   }
