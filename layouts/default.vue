@@ -13,5 +13,9 @@
   padding: 6rem var(--layout-horizontal-padding);
   max-width: 192rem;
   margin: 0 auto;
+
+  @include screen('small') {
+    padding-top: 3.2rem;
+  }
 }
 </style>
