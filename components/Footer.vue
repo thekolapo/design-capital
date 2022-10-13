@@ -4,9 +4,9 @@
       <h1 class="u-font-h1">
         We are for founders and designers. We are them and we believe in them.
       </h1>
-      <button class="c-button c-button--secondary">
+      <a href="" target="_blank" class="c-button c-button--secondary">
         Connect with a SENIOR designer
-      </button>
+      </a>
     </div>
     <div class="footer__bottom">
       <div class="footer__links">

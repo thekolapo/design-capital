@@ -8,7 +8,9 @@
         Connect with *top tier designers who'll invest up to $100k in design
         work in exceptional early stage companies, in return for equity.
       </p>
-      <button class="c-button">Connect With Your Design Leader</button>
+      <a href="" target="_blank" class="c-button">
+        Connect With Your Design Leader
+      </a>
     </section>
     <section class="home__offers">
       <h1 class="u-font-h1">Why Design Capital?</h1>
