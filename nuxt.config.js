@@ -19,7 +19,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '',
+        content: "Connect with *top tier designers who'll invest up to $100k in design work in exceptional early stage companies, in return for equity.",
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: '' },
@@ -32,7 +32,7 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: '',
+        content: "Connect with *top tier designers who'll invest up to $100k in design work in exceptional early stage companies, in return for equity.",
       },
       { property: 'twitter:card', content: 'summary_large_image' },
       { property: 'twitter:url', content: '' },
@@ -44,7 +44,7 @@ export default {
       {
         hid: 'twitter:description',
         property: 'twitter:description',
-        content: '',
+        content: "Connect with *top tier designers who'll invest up to $100k in design work in exceptional early stage companies, in return for equity.",
       },
       {
         hid: 'twitter:image',
