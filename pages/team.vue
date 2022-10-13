@@ -10,9 +10,11 @@
           founders and believes in the power of design to positively transform
           businesses. Outside of Design Capital, she is the Co-founder of one of
           Africa's leading design agencies,
-          <a href="" target="_blank">Dá Design Studio.</a> She has helped design
-          substantial brands for some of Africa's most exciting startups and
-          companies. She is a member of the
+          <a href="https://dadesign.studio/" target="_blank"
+            >Dá Design Studio.</a
+          >
+          She has helped design substantial brands for some of Africa's most
+          exciting startups and companies. She is a member of the
           <a href="" target="_blank">D&AD impact council</a> - a small
           collection of senior figures from across the creative, investment, and
           social impact space who help award the world's most impactful creative
