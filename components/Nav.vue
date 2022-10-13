@@ -86,7 +86,7 @@
   margin-bottom: 7.5rem;
 
   @include screen('small') {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 
     &__logo svg {
       width: 8rem;
@@ -103,12 +103,13 @@
     a {
       color: black;
       text-decoration: none;
+      display: inline-block;
 
       &:not(:last-child) {
         margin-right: 2.4rem;
 
         @include screen('small') {
-          margin-right: 1.8rem;
+          margin-right: 1.6rem;
         }
       }
     }

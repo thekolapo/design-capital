@@ -1,13 +1,14 @@
 <template>
   <div class="home">
     <section class="home__hero">
-      <h1 class="u-font-h1">Get backed by senior designers around the world</h1>
+      <h1 class="u-font-h1">
+        Get Backed By The World's Most Ambitious Designers.
+      </h1>
       <p class="home__hero-subtext">
-        Connect with Senior designers and design experts who want to invest
-        between $20k - $100k worth of design work in exceptional early-stage
-        startups and pay in equity.
+        Connect with *top tier designers who'll invest up to $100k in design
+        work in exceptional early stage companies, in return for equity.
       </p>
-      <button class="c-button">Connect with a SENIOR designer</button>
+      <button class="c-button">Connect With Your Design Leader</button>
     </section>
     <section class="home__offers">
       <h1 class="u-font-h1">Why Design Capital?</h1>
@@ -113,7 +114,7 @@
       max-width: 87rem;
 
       @include screen('small') {
-        margin-bottom: 5rem;
+        margin: 2.2rem 0 3.2rem;
       }
     }
   }
@@ -178,14 +179,17 @@
 
         &:first-child svg {
           width: 6rem;
+          height: 5.4rem;
         }
 
         &:nth-child(2) svg {
           width: 11rem;
+          height: 5rem;
         }
 
         &:last-child svg {
           width: 8rem;
+          height: 6.2rem;
         }
       }
 

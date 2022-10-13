@@ -6,6 +6,10 @@ $ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 :root {
 	--layout-horizontal-padding: 6rem;
 
+  @media screen and (max-width: 980px) {
+    --layout-horizontal-padding: 4rem;
+  }
+
   @media screen and (max-width: 750px) {
     --layout-horizontal-padding: 1.8rem;
   }
