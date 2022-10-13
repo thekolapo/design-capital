@@ -15,12 +15,17 @@
           >
           She has helped design substantial brands for some of Africa's most
           exciting startups and companies. She is a member of the
-          <a href="" target="_blank">D&AD impact council</a> - a small
-          collection of senior figures from across the creative, investment, and
-          social impact space who help award the world's most impactful creative
-          ideas each year. When she's not working, she's a fabulous pet mum to
-          Mushu and Lekki, reading, watching wacky t.v, binging docuseries, and
-          sipping on Thai milk tea.
+          <a href="https://www.dandad.org/en/d-ad-impact/" target="_blank"
+            >D&AD impact council</a
+          >
+          - a small collection of senior figures from across the creative,
+          investment, and social impact space who help award the world's most
+          impactful creative ideas each year.
+        </p>
+        <p>
+          When she's not working, she's a fabulous pet mum to Mushu and Lekki,
+          reading, watching wacky t.v, binging docuseries, and sipping on Thai
+          milk tea.
         </p>
       </div>
       <div class="team__profile-image">
@@ -36,14 +41,23 @@
           structuring deals, advising clients on a broad range of transactions,
           and providing legal due diligence. She also holds certifications from
           the University of Oxford and American Society of Appraisers (ASA) on
-          the valuation of intangible assets. Saratu is very passionate team
-          supporting the growth of creativity and innovation in Africa, either
-          through sharing her knowledge at
-          <a href="" target="_blank">ProjectIP4U</a> or providing access to
-          fundraising opportunities for founders, through the platform she
-          co-founded, <a href="" target="_blank">The Fund Plug</a> In her free
-          time, she travels on random adventures and attempts to become a pro
-          guitar player for the umpteenth time.
+          the valuation of intangible assets.
+        </p>
+        <p>
+          Saratu is very passionate about supporting the growth of creativity
+          and innovation in Africa, either through sharing her knowledge at
+          <a href="https://projectip4u.wordpress.com/" target="_blank"
+            >ProjectIP4U</a
+          >
+          or providing access to fundraising opportunities for founders, through
+          the platform she co-founded,
+          <a href="https://www.thefundplug.com/" target="_blank"
+            >The Fund Plug</a
+          >
+        </p>
+        <p>
+          In her free time, she travels on random adventures and attempts to
+          become a pro guitar player for the umpteenth time.
         </p>
       </div>
       <div class="team__profile-image">
@@ -60,9 +74,11 @@
           Document Women. Oiza is an avid reader, a women's rights advocate and
           a lover of adventure and travel. Her professional experience spans
           various disciplines ranging from digital marketing to project
-          management and performance and process improvement. She works to make
-          sure deadlines are met, and everyone is kept on their toes. She owns a
-          cat and two dogs.
+          management and performance and process improvement.
+        </p>
+        <p>
+          She works to make sure deadlines are met, and everyone is kept on
+          their toes. She owns a cat and two dogs.
         </p>
       </div>
       <div class="team__profile-image">
@@ -77,14 +93,23 @@
           product and design leadership, Ted is passionate team design on the
           continent. Outside of Design Capital, he is Vice President of Design
           at Flutterwave where he leads a talented team that specializes in
-          Product Design, User Research, Brand, and Marketing Design. He is a
-          significant contributor to scaling the company from a little over
-          20,000 merchants to more than 1,000,000 merchants globally. He also
-          leads products at <a href="" target="_blank">Archivi.ng</a> where they
-          are archiving and digitizing Nigeria's history through the lens of the
-          media, starting with newspapers. In his spare time, he collaborates
-          with architects to design his dream home in Lagos and plays video
-          games.
+          Product Design, User Research, Brand, and Marketing Design.
+        </p>
+        <p>
+          He is a significant contributor to scaling the company from a little
+          over 20,000 merchants to more than 1,000,000 merchants globally.
+        </p>
+        <p>
+          He also leads products at
+          <a href="https://archiving.substack.com/" target="_blank"
+            >Archivi.ng</a
+          >
+          where they are archiving and digitizing Nigeria's history through the
+          lens of the media, starting with newspapers.
+        </p>
+        <p>
+          In his spare time, he collaborates with architects to design his dream
+          home in Lagos and plays video games.
         </p>
       </div>
       <div class="team__profile-image">
@@ -118,8 +143,16 @@
         margin-bottom: 1.6rem;
       }
 
-      a {
-        color: black;
+      p:not(:last-child) {
+        margin-bottom: 3rem;
+
+        @include screen('small') {
+          margin-bottom: 2.4rem;
+        }
+
+        a {
+          color: black;
+        }
       }
     }
 
