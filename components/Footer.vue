@@ -41,6 +41,9 @@
 
 <style lang="scss" scoped>
 .footer {
+  @include screen('small') {
+    font-size: 1.7rem;
+  }
   &__header {
     position: relative;
     width: 100vw;
@@ -87,7 +90,7 @@
       width: 100%;
     }
     @include screen('small') {
-      margin-bottom: 1.5rem;
+      margin-bottom: 3.5rem;
       justify-content: space-between;
     }
 
@@ -106,6 +109,9 @@
     display: flex;
     align-content: center;
     justify-content: space-between;
+    @include screen('small') {
+      width: 100%;
+    }
     span {
       font-weight: 500;
       color: #828282;
@@ -122,7 +128,7 @@
       justify-content: center;
       svg {
         @include screen('small') {
-          width: 90%;
+          width: 80%;
         }
       }
     }
