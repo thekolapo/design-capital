@@ -128,7 +128,8 @@
       justify-content: center;
       svg {
         @include screen('small') {
-          width: 80%;
+          height: 100%;
+          width: 70%;
         }
       }
     }
