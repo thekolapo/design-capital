@@ -58,6 +58,10 @@
     h1 {
       color: white;
       margin-bottom: 8rem;
+
+      @include screen('small') {
+        margin-bottom: 4.4rem;
+      }
     }
   }
   &__bottom {
