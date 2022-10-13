@@ -115,7 +115,7 @@
 
     &-details {
       .u-font-h2 {
-        margin-bottom: 1rem;
+        margin-bottom: 1.6rem;
       }
 
       a {
@@ -142,7 +142,7 @@
         width: 100%;
         height: auto;
         margin-left: 0;
-        margin-top: 5rem;
+        margin-top: 4rem;
       }
 
       img {
