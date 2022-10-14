@@ -96,21 +96,14 @@
 
   &__menu {
     display: flex;
-    height: 4rem;
     justify-content: space-between;
-    font-weight: 500;
+    align-items: flex-start;
 
-    a {
-      color: black;
-      text-decoration: none;
-      display: inline-block;
+    a:not(:last-child) {
+      margin-right: 2.4rem;
 
-      &:not(:last-child) {
-        margin-right: 2.4rem;
-
-        @include screen('small') {
-          margin-right: 1.6rem;
-        }
+      @include screen('small') {
+        margin-right: 1.6rem;
       }
     }
   }

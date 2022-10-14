@@ -91,14 +91,8 @@
       margin-bottom: 2.6rem;
     }
 
-    a {
-      font-weight: 500;
-      color: black;
-      text-decoration: none;
-
-      &:not(:last-child) {
-        margin-right: 2.4rem;
-      }
+    a:not(:last-child) {
+      margin-right: 2.4rem;
     }
   }
 
