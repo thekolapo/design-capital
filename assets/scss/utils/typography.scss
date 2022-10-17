@@ -1,8 +1,9 @@
 h1,
 .u-font-h1 {
+  font-family: 'Produkt';
+	font-weight: 500;
   font-size: 9.6rem;
   line-height: 10.6rem;
-  font-weight: 500;
 
   @include screen ('med') {
     font-size: 7rem;
@@ -18,9 +19,10 @@ h1,
 
 h2,
 .u-font-h2 {
+  font-family: 'Produkt';
+	font-weight: 500;
   font-size: 6.4rem;
   line-height: 7.7rem;
-  font-weight: 500;
 
   @include screen ('med') {
     font-size: 5.2rem;
