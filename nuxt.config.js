@@ -8,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'design capital',
+    title: 'Design Capital',
     htmlAttrs: {
       lang: 'en',
     },
@@ -23,7 +23,7 @@ export default {
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: '' },
-      { hid: 'og:title', property: 'og:title', content: '' },
+      { hid: 'og:title', property: 'og:title', content: 'Design Capital' },
       {
         hid: 'og:image',
         property: 'og:image',
@@ -39,7 +39,7 @@ export default {
       {
         hid: 'twitter:title',
         property: 'twitter:title',
-        content: 'design capital'
+        content: 'Design Capital'
       },
       {
         hid: 'twitter:description',
