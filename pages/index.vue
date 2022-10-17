@@ -8,7 +8,11 @@
         Connect with *top tier designers who'll invest up to $100k in design
         work in exceptional early stage companies, in return for equity.
       </p>
-      <a href="" target="_blank" class="c-button">
+      <a
+        href="https://getdesign.capital/get-started"
+        target="_blank"
+        class="c-button"
+      >
         Connect With Your Design Leader
       </a>
     </section>

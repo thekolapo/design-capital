@@ -4,7 +4,11 @@
       <h1 class="u-font-h1">
         We are for founders and designers. We are them and we believe in them.
       </h1>
-      <a href="" target="_blank" class="c-button c-button--secondary">
+      <a
+        href="https://getdesign.capital/get-started"
+        target="_blank"
+        class="c-button c-button--secondary"
+      >
         Connect with a SENIOR designer
       </a>
     </div>
