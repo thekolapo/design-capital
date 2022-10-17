@@ -73,7 +73,9 @@
     </div>
     <div class="nav__menu">
       <nuxt-link class="c-link" to="/team">Team</nuxt-link>
-      <nuxt-link class="c-link" to="">Get in touch</nuxt-link>
+      <a class="c-link" href="mailto:info@getdesigncapital.com" target="_blank">
+        Get in touch
+      </a>
     </div>
   </nav>
 </template>
