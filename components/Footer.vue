@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
     <div class="footer__header">
       <h1 class="u-font-h1">
         We are for founders and designers. We are them and we believe in them.
@@ -34,7 +34,7 @@
         </svg>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <style lang="scss" scoped>

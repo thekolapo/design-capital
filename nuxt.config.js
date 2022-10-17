@@ -27,7 +27,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: '',
+        content: 'https://design-capital-site.netlify.app/meta-image.png',
       },
       {
         hid: 'og:description',
@@ -49,7 +49,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '',
+        content: 'https://design-capital-site.netlify.app/meta-image.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

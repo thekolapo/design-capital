@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <nav class="nav">
     <div class="nav__logo">
       <nuxt-link to="/">
         <svg
@@ -75,7 +75,7 @@
       <nuxt-link class="c-link" to="/team">Team</nuxt-link>
       <nuxt-link class="c-link" to="">Get in touch</nuxt-link>
     </div>
-  </div>
+  </nav>
 </template>
 
 <style lang="scss" scoped>
