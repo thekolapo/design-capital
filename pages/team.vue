@@ -82,7 +82,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-        <img src="../assets/images/dami.png" />
+        <img src="../assets/images/oiza.jpg" />
       </div>
     </div>
     <div class="team__profile">
@@ -113,7 +113,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-        <img src="../assets/images/dami.png" />
+        <img src="../assets/images/ted.jpg" />
       </div>
     </div>
   </div>
