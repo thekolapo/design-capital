@@ -9,7 +9,7 @@
         work in exceptional early stage companies, in return for equity.
       </p>
       <a
-        href="https://getdesign.capital/get-started"
+        href="https://app.getdesign.capital/get-started"
         target="_blank"
         class="c-button"
       >

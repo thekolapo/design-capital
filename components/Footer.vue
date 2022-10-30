@@ -5,7 +5,7 @@
         We are for founders and designers. We are them and we believe in them.
       </h1>
       <a
-        href="https://getdesign.capital/get-started"
+        href="https://app.getdesign.capital/get-started"
         target="_blank"
         class="c-button c-button--secondary"
       >
