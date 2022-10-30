@@ -29,7 +29,7 @@
         </p>
       </div>
       <div class="team__profile-image">
-        <img src="../assets/images/dami.png" />
+        <img src="../assets/images/dami.jpg" />
       </div>
     </div>
     <div class="team__profile">
