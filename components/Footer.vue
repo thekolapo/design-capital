@@ -1,16 +1,18 @@
 <template>
   <footer class="footer">
     <div class="footer__header">
-      <h1 class="u-font-h1">
-        We are for founders and designers. We are them and we believe in them.
-      </h1>
-      <a
-        href="https://app.getdesign.capital/get-started"
-        target="_blank"
-        class="c-button c-button--secondary"
-      >
-        Connect with a SENIOR designer
-      </a>
+      <div class="footer__header-container">
+        <h1 class="u-font-h1">
+          We are for founders and designers. We are them and we believe in them.
+        </h1>
+        <a
+          href="https://app.getdesign.capital/get-started"
+          target="_blank"
+          class="c-button c-button--secondary"
+        >
+          Connect with a SENIOR designer
+        </a>
+      </div>
     </div>
     <div class="footer__bottom">
       <div class="footer__links">
@@ -51,6 +53,11 @@
     border-radius: 8rem;
     margin-bottom: 10.2rem;
     padding: 6rem var(--layout-horizontal-padding) 22.4rem;
+
+    &-container {
+      max-width: 192rem;
+      margin: 0 auto;
+    }
 
     @include screen('small') {
       padding-top: 4rem;
