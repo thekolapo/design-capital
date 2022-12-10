@@ -319,6 +319,7 @@
       margin-left: 7rem;
       object-fit: cover;
       object-position: center;
+      background: rgb(206, 206, 206);
 
       @media screen and (max-width: 1280px) {
         width: 40rem;
