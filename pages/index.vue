@@ -45,10 +45,10 @@
           </p>
         </div>
         <div class="home__offers-offer">
-          <h3 class="u-font-h3">NOT MORE THAN __ EQUITY</h3>
+          <h3 class="u-font-h3">NOT MORE THAN 4.48% IN EQUITY</h3>
           <p>
-            Designers on Design Capital provide design services worth 20 000 USD
-            to 100 000 USD, and never take more than ____ in equity.
+            Designers on Design Capital provide design services worth 20,000 USD
+            to 100,000 USD, and never take more than 4.48% in equity.
           </p>
         </div>
       </div>
