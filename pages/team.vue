@@ -34,6 +34,37 @@
     </div>
     <div class="team__profile">
       <div class="team__profile-details">
+        <h2 class="u-font-h2">Ted</h2>
+        <p>
+          Ted is the Co-Founder of Design Capital. Hoping between product and
+          design leadership, Ted is passionate team design on the continent.
+          Outside of Design Capital, he is Vice President of Design at
+          Flutterwave where he leads a talented team that specializes in Product
+          Design, User Research, Brand, and Marketing Design.
+        </p>
+        <p>
+          He is a significant contributor to scaling the company from a little
+          over 20,000 merchants to more than 1,000,000 merchants globally.
+        </p>
+        <p>
+          He also leads products at
+          <a href="https://archiving.substack.com/" target="_blank"
+            >Archivi.ng</a
+          >
+          where they are archiving and digitizing Nigeria's history through the
+          lens of the media, starting with newspapers.
+        </p>
+        <p>
+          In his spare time, he collaborates with architects to design his dream
+          home in Lagos and plays video games.
+        </p>
+      </div>
+      <div class="team__profile-image">
+        <img src="../assets/images/ted.jpg" />
+      </div>
+    </div>
+    <div class="team__profile">
+      <div class="team__profile-details">
         <h2 class="u-font-h2">Saratu</h2>
         <p>
           Saratu is the Co-Founder and C.L.O at Design Capital. She is a
@@ -83,37 +114,6 @@
       </div>
       <div class="team__profile-image">
         <img src="../assets/images/oiza.jpg" />
-      </div>
-    </div>
-    <div class="team__profile">
-      <div class="team__profile-details">
-        <h2 class="u-font-h2">Ted</h2>
-        <p>
-          Ted is the Co-Founder and C.P.O of Design Capital. Hoping between
-          product and design leadership, Ted is passionate team design on the
-          continent. Outside of Design Capital, he is Vice President of Design
-          at Flutterwave where he leads a talented team that specializes in
-          Product Design, User Research, Brand, and Marketing Design.
-        </p>
-        <p>
-          He is a significant contributor to scaling the company from a little
-          over 20,000 merchants to more than 1,000,000 merchants globally.
-        </p>
-        <p>
-          He also leads products at
-          <a href="https://archiving.substack.com/" target="_blank"
-            >Archivi.ng</a
-          >
-          where they are archiving and digitizing Nigeria's history through the
-          lens of the media, starting with newspapers.
-        </p>
-        <p>
-          In his spare time, he collaborates with architects to design his dream
-          home in Lagos and plays video games.
-        </p>
-      </div>
-      <div class="team__profile-image">
-        <img src="../assets/images/ted.jpg" />
       </div>
     </div>
   </div>
